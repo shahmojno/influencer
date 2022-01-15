@@ -48,22 +48,40 @@ margin: 0px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    margin-bottom: 50px;
 }
 
 
 .influencer{
-       display: flex;
+    display: flex;
+    
 }
    
+/* company logo */
+.company-logos{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+     
+}
+
+.logo1{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 
 #main-title{
     font-size: 40px;
+    
 }
 
 /* Products Details */
 .section-title {
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 70px;
 }
 
 .Products{
