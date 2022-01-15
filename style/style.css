@@ -7,9 +7,41 @@ body{
 font-family: 'Lobster Two', cursive;
 font-family: 'Poppins', sans-serif;
 margin: 0px;
+}
+
+/* Menu Title */
+.menubar-title{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+.top-title{
+    margin-left: 100px;
+    margin-top: 50px;
+    }
+.top-menu{
+    margin-top: 50px;
+}
+nav >ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 10px 5px ;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    align-items:center;
 
 
 }
+
  main{
     display: flex;
     flex-direction: column;
