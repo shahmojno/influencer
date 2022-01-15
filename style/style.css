@@ -219,3 +219,31 @@ a{
     color: white;
     
 }
+
+
+/* Media query */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .influencers, .Products, .extra-blog, .menubar-title, .company-logos{
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+.product, .logo1, .influencer{
+    flex-direction: column ;
+}
+}
+
+/* tablet */
+
+@media only screen and (min-width:688px) and 
+(max-width:992px){
+    .container{
+        width: 95%;
+    }
+
+.Products, .influencers, .extra-blog, .menubar-title, .company-logos{
+    grid-template-columns: repeat(1, 1fr);
+}    
+}
