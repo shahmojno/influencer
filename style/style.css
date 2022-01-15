@@ -167,6 +167,20 @@ nav li a{
     color: rgb(121, 117, 109);
 }
 
+
+.blog-image img{
+    width: 50%;
+}
+
+.extra-blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.extra-info{
+    font-size: 30px;
+}
 /* Footer Section */
 footer{
     height: 200px;
